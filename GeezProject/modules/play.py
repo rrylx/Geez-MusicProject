@@ -537,7 +537,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
                     InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjets"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
@@ -584,7 +583,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
                     InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -663,7 +661,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
                     InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
             requested_by = message.from_user.first_name
@@ -805,7 +802,6 @@ async def ytplay(_, message: Message):
                     InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
                     InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
     requested_by = message.from_user.first_name
@@ -1038,7 +1034,6 @@ async def lol_cb(b, cb):
                     InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
                     InlineKeyboardButton("🛡️ Channel", url="https://t.me/GeezProjects"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
     requested_by = useer_name
