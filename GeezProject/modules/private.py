@@ -81,15 +81,12 @@ async def help(client: Client, message: Message):
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ **Apakah Anda ingin mencari Link YouTube?**",
+        "💁🏻‍♂️ **✅ RLX Music player is online**",
         reply_markup=InlineKeyboardMarkup(
             [   
                 [    
                     InlineKeyboardButton(
-                        "✅ Ya", switch_inline_query_current_chat=""
-                    ),
-                    InlineKeyboardButton(
-                        "❌ Tidak ", callback_data="close"
+                        "❄️ Channel Support", url="https://t.me/RLX_OFC"
                     )
                 ]
             ]
@@ -128,10 +125,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/GeezSupportGroup"
+                        "Channel Support", url=f"https://t.me/RLX_OFC"
                     ),
                     InlineKeyboardButton(
-                        "Created By", url=f"https://t.me/VckyouuBitch"
+                        "Created By", url=f"https://t.me/rrlyx"
                     )
                 ]
             ]
