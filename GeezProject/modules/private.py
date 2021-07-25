@@ -58,9 +58,9 @@ Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda De
     & filters.private
     & ~ filters.edited
 )
-async def help(client: Client, message: Message):
+async def _help(client: Client, message: Message):
     await message.reply_text(
-        f"""Klik Tombol dibawah untuk Melihat daftar perintahnya""",
+        f"""**Klik Tombol dibawah untuk Melihat daftar perintahnya**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
