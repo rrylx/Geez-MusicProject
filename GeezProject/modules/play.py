@@ -534,8 +534,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjets"),
+                    InlineKeyboardButton("❄️ Channel", url="https://t.me/RLX_OFC"),
+                    InlineKeyboardButton("❄️ Panduan", url="https://telegra.ph/Panduan-Bot-Music-07-26"),
                 ],
             ]
         )
@@ -580,8 +580,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("❄️ Channel", url="https://t.me/RLX_OFC"),
+                    InlineKeyboardButton("❄️ Panduan", url="https://telegra.ph/Panduan-Bot-Music-07-26"),
                 ],
             ]
         )
@@ -657,8 +657,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("❄️ Channel", url="https://t.me/RLX_OFC"),
+                    InlineKeyboardButton("❄️ Panduan", url="https://telegra.ph/Panduan-Bot-Music-07-26"),
                 ],
             ]
         )
@@ -798,8 +798,8 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("❄️ Channel", url="https://t.me/RLX_OFC"),
+                    InlineKeyboardButton("❄️ Panduan", url="https://telegra.ph/Panduan-Bot-Music-07-26"),
                 ],
             ]
         )
@@ -1030,8 +1030,8 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("❄️ Channel", url="https://t.me/RLX_OFC"),
+                    InlineKeyboardButton("❄️ Panduan", url="https://telegra.ph/Panduan-Bot-Music-07-26"),
                 ],
             ]
         )
