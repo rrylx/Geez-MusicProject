@@ -53,25 +53,6 @@ Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda De
         reply_to_message_id=message.message_id
         )
 
-@Client.on_message(
-    filters.command("help")
-    & filters.private
-    & ~ filters.edited
-)
-async def _help(client: Client, message: Message):
-    await message.reply_text(
-        f"""**Klik Tombol dibawah untuk Melihat daftar perintahnya**""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "📜 Daftar Perintah 📜", url="https://telegra.ph/Daftar-Perintah-07-24"
-                    )
-                ]
-            ]
-        )
-    )  
-
 
 @Client.on_message(
     filters.command("start")
