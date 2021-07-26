@@ -602,7 +602,7 @@ async def play(_, message: Message):
           await lel.edit("**Beri Judul Lagu untuk diputar**")
         # Looks like hell. Aren't it?? FUCK OFF
         try:
-            toxxt = "**Silahkan Pilih lagu yang ingin Anda Putar:**\n\n"
+            toxxt = "**Jangan Memutar Lagu Yang Berdurasi Lebih Dari 15 Menit!**\n\n"
             j = 0
             useer=user_name
             emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣",]
