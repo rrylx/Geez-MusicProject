@@ -61,7 +61,7 @@ Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda De
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ **✅ RLX Music player is online**",
+        "**✅ RLX Music player is online**",
         reply_markup=InlineKeyboardMarkup(
             [   
                 [    
@@ -81,12 +81,12 @@ async def start(client: Client, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        """**Klik Tombol dibawah untuk Melihat Cara Menggunakan Bot**""",
+        """**Klik Tombol dibawah untuk Melihat Panduan Bot Music**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/Vckyouuu/32"
+                        "❄️ Panduan ❄️", url="https://telegra.ph/Panduan-Bot-Music-07-26"
                     )
                 ]
             ]
